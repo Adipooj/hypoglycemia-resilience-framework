@@ -100,6 +100,90 @@ class TimelineBuilder(PipelineStage):
         self.timeline = Timeline(self.patient.patient_id, df)
         return self.timeline
 
+    # ---------------------------------------------------------------------
+    #   Timeline Repair, Validation, and Summarization
+    # ---------------------------------------------------------------------
+    def repair(self) -> pd.DataFrame:
+        """Repair structural problems in the built timeline.
+
+        * Duplicate timestamps → keep the first occurrence, drop others.
+        * Ensure timestamp column is monotonic increasing.
+        * Forward-fill missing values for numeric columns.
+        * Interpolate missing numeric values using linear interpolation.
+        """
+        if self.timeline is None:
+            raise RuntimeError("Timeline must be built before repair.")
+        df = self.timeline.data.copy()
+
+        # Drop duplicate timestamps, keep first
+        before_dups = len(df)
+        df = df.drop_duplicates(subset="timestamp", keep="first")
+        logger.info(f"Dropped {before_dups - len(df)} duplicate timestamps.")
+
+        # Ensure ordering
+        df = df.sort_values("timestamp").reset_index(drop=True)
+
+        # Forward fill then linear interpolate numeric columns
+        numeric_cols = df.select_dtypes(include="number").columns
+        df[numeric_cols] = df[numeric_cols].ffill().interpolate(method="linear")
+        self.timeline = Timeline(self.patient.patient_id, df)
+        return df
+
+    def validate(self) -> Dict[str, Any]:
+        """Validate scientific correctness of the timeline.
+
+        Returns a dictionary with validation metrics, e.g.:
+        * impossible glucose values (<0 or > 500 mg/dL)
+        * modality coverage percentages
+        * continuity score (fraction of uninterrupted 5-min windows)
+        * missingness per modality
+        """
+        if self.timeline is None:
+            raise RuntimeError("Timeline must be built before validation.")
+        df = self.timeline.data
+        metrics: Dict[str, Any] = {}
+
+        # Glucose range check (example thresholds)
+        if "glucose" in df.columns:
+            invalid_glucose = df[(df["glucose"] < 0) | (df["glucose"] > 500)]
+            metrics["invalid_glucose_percent"] = 100 * len(invalid_glucose) / len(df)
+        else:
+            metrics["invalid_glucose_percent"] = None
+
+        # Modality coverage (percentage of non-null entries)
+        coverage = df.notnull().mean().to_dict()
+        metrics["modality_coverage"] = coverage
+
+        # Continuity: expected number of rows vs actual
+        expected_rows = int(((df["timestamp"].max() - df["timestamp"].min()).total_seconds() / 300) + 1)
+        metrics["expected_rows"] = expected_rows
+        metrics["actual_rows"] = len(df)
+        metrics["continuity_score"] = len(df) / expected_rows if expected_rows else 0
+
+        return metrics
+
+    def summarize(self) -> Dict[str, Any]:
+        """Produce a concise summary of timeline statistics for reporting.
+        Returns a dictionary that can be serialized to JSON or HTML.
+        """
+        if self.timeline is None:
+            raise RuntimeError("Timeline must be built before summarization.")
+        df = self.timeline.data
+        summary: Dict[str, Any] = {}
+        summary["patient_id"] = self.patient.patient_id
+        summary["start"] = df["timestamp"].min().isoformat()
+        summary["end"] = df["timestamp"].max().isoformat()
+        summary["duration_minutes"] = int((df["timestamp"].max() - df["timestamp"].min()).total_seconds() / 60)
+        summary["row_count"] = len(df)
+        # Basic modality stats
+        for col in df.columns:
+            if col == "timestamp":
+                continue
+            if pd.api.types.is_numeric_dtype(df[col]):
+                summary[f"{col}_mean"] = df[col].mean()
+                summary[f"{col}_std"] = df[col].std()
+        return summary
+
     def save(self) -> List[Path]:
         """Saves the final timeline parquet to the run context directory."""
         if self.timeline is None:

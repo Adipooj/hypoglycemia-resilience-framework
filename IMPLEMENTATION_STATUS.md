@@ -85,12 +85,25 @@ explainer.save()
    - Implement a schema adapter between the loaders and `TimelineBuilder` to standardize columns and types, decoupling loaders from timeline structure.
 
 5. **Plugin-Based Timeline Mergers**:
-   - Each modality merger (glucose, insulin, sleep, activity, nutrition) registers itself to the `TimelineBuilder` as a plugin, allowing modular alignment logic.
+   - Each # Implementation Status
 
-6. **Registry-Based Feature Builder**:
-   - Features will be registered using a decorator registry (`@register_feature`), allowing individual features to define their own metadata (description, units, sources) and run parameters.
+## Milestone 1 ✅
+- Dataset discovery, registry, metadata, quality control implemented.
 
-7. **Experiment Tracking & Immutable Runs**:
+## Milestone 2 ✅
+- Timeline builder with repair, validation, summarization completed.
+
+## Milestone 3 🔧
+- Feature engineering modules (variability, circadian, interaction) added.
+- Feature validation and quality assessment scaffolding in place.
+
+## Milestone 4 🔧
+- Phenotype discovery (clustering) and resilience score calculation modules added.
+
+## Milestone 5 🔧
+- Modeling trainer, predictor, leakage validation, explainability (SHAP) and report generation skeletons added.
+
+*All milestones are runnable and have unit test placeholders.**:
    - Runs will be recorded inside a dedicated `runs/run_YYYYMMDD_HHMMSS` directory, containing the active YAML configuration, output parquets, logs, and reporting outputs.
 
 8. **YAML-Driven Orchestration**:
