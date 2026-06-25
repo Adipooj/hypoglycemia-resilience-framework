@@ -1,0 +1,99 @@
+patient,modality,rows,columns,missing_cells,duplicate_rows,missing_columns,extra_columns
+2301,activity,10203,13,0,3,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2301,glucose,45768,2,0,7048,,
+2301,nutrition,302,7,60,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2301,sleep,24193,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2301,basal,10993,5,21986,2,,"Unnamed: 3, Unnamed: 4, insulin_kind"
+2301,bolus,677,2,0,0,,
+2302,activity,19351,13,0,3,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2302,glucose,13656,2,0,0,,
+2302,nutrition,220,7,20,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2302,sleep,21889,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2302,basal,34,3,0,0,,insulin_kind
+2302,bolus,178,2,1,0,,
+2303,activity,7311,13,0,3,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2303,glucose,14188,2,0,1,,
+2303,sleep,15834,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2304,activity,18824,13,0,5,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2304,glucose,39512,2,0,8609,,
+2304,nutrition,203,7,2,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2304,sleep,31969,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2304,basal,228,3,0,0,,insulin_kind
+2304,bolus,204,2,1,0,,
+2305,activity,26407,13,0,8930,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2305,glucose,7190,2,0,0,,
+2305,nutrition,127,7,24,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2305,sleep,24193,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2305,basal,31,3,0,0,,insulin_kind
+2305,bolus,166,2,2,0,,
+2306,activity,11939,13,0,1,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2306,glucose,11710,2,0,0,,
+2306,nutrition,367,7,427,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2306,sleep,24193,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2306,basal,82,3,0,0,,insulin_kind
+2306,bolus,519,2,96,0,,
+2307,activity,13116,13,0,1,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2307,glucose,8385,2,0,0,,
+2307,nutrition,233,7,9,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2307,sleep,24193,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2307,basal,6890,3,0,0,,insulin_kind
+2307,bolus,524,2,0,0,,
+2308,activity,10561,13,0,6,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2308,glucose,28694,2,0,0,,
+2308,nutrition,243,7,37,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2308,sleep,24192,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2308,basal,806,3,0,0,,insulin_kind
+2308,bolus,396,2,0,0,,
+2309,activity,11587,13,0,10,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2309,glucose,20665,2,0,0,,
+2309,nutrition,213,7,12,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2309,sleep,24769,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2309,basal,625,3,0,0,,insulin_kind
+2309,bolus,289,2,0,0,,
+2310,activity,12340,13,0,1,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2310,glucose,50108,2,0,0,,
+2310,sleep,14733,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2310,basal,260,3,0,0,,insulin_kind
+2310,bolus,628,2,0,0,,
+2313,activity,16062,13,0,3,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2313,glucose,30832,2,0,0,,
+2313,nutrition,184,7,39,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2313,sleep,9260,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2313,basal,101,3,0,0,,insulin_kind
+2313,bolus,266,2,0,0,,
+2314,activity,12757,13,0,2,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2314,glucose,12783,2,0,0,,
+2314,nutrition,558,7,163,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2314,sleep,88,15,115,0,sleep_ts,"awake_s, calendar_date, deep_sleep_s, duration_in_sec, light_sleep_s, rem_sleep_s, sleep_levels_map_awake, sleep_levels_map_deep, sleep_levels_map_light, sleep_levels_map_rem, sleep_levels_map_unmeasurable, start_date_ts, start_time_offset_s, unmeasurable_sleep_s, validation"
+2314,basal,91,3,0,0,,insulin_kind
+2314,bolus,426,2,92,0,,
+2320,activity,12298,13,0,2,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2320,glucose,23965,2,0,1,,
+2320,nutrition,458,7,0,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2320,sleep,24193,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2320,bolus,163,2,0,0,,
+2401,activity,10337,13,0,10,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2401,glucose,15047,2,0,0,,
+2401,nutrition,488,7,199,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2401,sleep,29665,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2401,basal,95,3,0,0,,insulin_kind
+2401,bolus,246,2,0,0,,
+2403,activity,11548,13,0,3,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2403,glucose,12860,2,0,0,,
+2403,nutrition,181,7,198,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2403,sleep,86,15,118,0,sleep_ts,"awake_s, calendar_date, deep_sleep_s, duration_in_sec, light_sleep_s, rem_sleep_s, sleep_levels_map_awake, sleep_levels_map_deep, sleep_levels_map_light, sleep_levels_map_rem, sleep_levels_map_unmeasurable, start_date_ts, start_time_offset_s, unmeasurable_sleep_s, validation"
+2403,basal,12,3,0,0,,insulin_kind
+2403,bolus,322,2,0,0,,
+2404,activity,12046,13,0,2,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2404,glucose,8236,2,0,0,,
+2404,nutrition,318,7,93,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2404,sleep,26209,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2404,bolus,367,2,0,0,,
+2405,activity,11994,13,0,1,,"active_Kcal, active_time_s, duration_s, intensity, motion_intensity_max, motion_intensity_mean, start_time_offset_s, start_time_s"
+2405,glucose,12547,2,0,0,,
+2405,nutrition,256,7,7,0,,"fat_g, fibre_g, meal_tag, meal_type, prot_g"
+2405,sleep,2360,7,0,0,,"current_activity_type_intensity, heart_rate, resting_heart_rate, sleep_level, step_count, stress_level_value"
+2405,basal,159,3,0,1,,insulin_kind
+2405,bolus,289,2,0,0,,
+2312,sleep,53,15,75,0,sleep_ts,"awake_s, calendar_date, deep_sleep_s, duration_in_sec, light_sleep_s, rem_sleep_s, sleep_levels_map_awake, sleep_levels_map_deep, sleep_levels_map_light, sleep_levels_map_rem, sleep_levels_map_unmeasurable, start_date_ts, start_time_offset_s, unmeasurable_sleep_s, validation"
+2315,sleep,85,15,88,0,sleep_ts,"awake_s, calendar_date, deep_sleep_s, duration_in_sec, light_sleep_s, rem_sleep_s, sleep_levels_map_awake, sleep_levels_map_deep, sleep_levels_map_light, sleep_levels_map_rem, sleep_levels_map_unmeasurable, start_date_ts, start_time_offset_s, unmeasurable_sleep_s, validation"

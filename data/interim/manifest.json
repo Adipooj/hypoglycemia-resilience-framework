@@ -1,0 +1,138 @@
+{
+    "2301": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2301.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2301.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2301.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2301.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2301.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2301.csv"
+    },
+    "2302": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2302.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2302.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2302.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2302.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2302.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2302.csv"
+    },
+    "2303": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2303.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2303.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2303.csv"
+    },
+    "2304": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2304.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2304.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2304.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2304.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2304.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2304.csv"
+    },
+    "2305": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2305.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2305.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2305.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2305.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2305.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2305.csv"
+    },
+    "2306": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2306.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2306.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2306.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2306.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2306.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2306.csv"
+    },
+    "2307": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2307.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2307.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2307.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2307.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2307.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2307.csv"
+    },
+    "2308": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2308.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2308.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2308.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2308.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2308.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2308.csv"
+    },
+    "2309": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2309.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2309.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2309.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2309.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2309.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2309.csv"
+    },
+    "2310": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2310.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2310.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2310.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2310.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2310.csv"
+    },
+    "2313": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2313.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2313.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2313.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2313.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2313.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2313.csv"
+    },
+    "2314": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2314.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2314.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2314.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoM2314sleeptime.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2314.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2314.csv"
+    },
+    "2320": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2320.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2320.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2320.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2320.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2320.csv"
+    },
+    "2401": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2401.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2401.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2401.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2401.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2401.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2401.csv"
+    },
+    "2403": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2403.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2403.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2403.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoM2403sleeptime.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2403.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2403.csv"
+    },
+    "2404": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2404.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2404.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2404.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2404.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2404.csv"
+    },
+    "2405": {
+        "activity": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Activity Data\\UoMActivity2405.csv",
+        "glucose": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Glucose Data\\UoMGlucose2405.csv",
+        "nutrition": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Nutrition Data\\UoMNutrition2405.csv",
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoMsleep2405.csv",
+        "basal": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Basal Data\\UoMBasal2405.csv",
+        "bolus": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Insulin Data\\Bolus Data\\UoMBolus2405.csv"
+    },
+    "2312": {
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoM2312sleeptime.csv"
+    },
+    "2315": {
+        "sleep": "T:\\UOM\\sharpic-ManchesterCSCoordinatedDiabetesStudy-a9e8025\\Sleep Data\\UoM2315sleeptime.csv"
+    }
+}

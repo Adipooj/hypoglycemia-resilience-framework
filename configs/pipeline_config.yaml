@@ -1,0 +1,70 @@
+# Pipeline Configuration for Hypoglycemia Resilience Discovery
+
+experiment:
+  run_name_prefix: "resilience_discovery"
+  output_dir: "runs"
+
+data:
+  dataset_name: "uom"
+  patient_ids:
+    - "2301"
+    - "2302"
+    - "2304"
+    - "2305"
+    - "2306"
+    - "2307"
+    - "2308"
+    - "2309"
+    - "2310"
+    - "2313"
+    - "2314"
+    - "2320"
+    - "2401"
+    - "2403"
+    - "2404"
+    - "2405"
+  # Support missing modalities
+  ignore_patients_without_glucose: true
+
+timeline:
+  frequency: "5min"
+  active_mergers:
+    - "glucose"
+    - "insulin"
+    - "activity"
+    - "nutrition"
+    - "sleep"
+
+features:
+  active_categories:
+    - "glucose"
+    - "insulin"
+    - "activity"
+    - "sleep"
+    - "nutrition"
+    - "variability"
+    - "circadian"
+    - "interaction"
+
+clustering:
+  pca_components: 4
+  umap_n_neighbors: 5
+  umap_min_dist: 0.1
+  umap_metric: "euclidean"
+  min_cluster_size: 3
+  min_samples: 2
+  clustering_method: "hdbscan" # or "hierarchical"
+
+models:
+  algorithms:
+    - "xgboost"
+    - "random_forest"
+    - "lightgbm"
+  cv_folds: 5
+  test_size: 0.2
+  random_state: 42
+
+explainability:
+  methods:
+    - "shap"
+    - "permutation_importance"
