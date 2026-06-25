@@ -46,14 +46,9 @@ features:
     - "circadian"
     - "interaction"
 
-clustering:
-  pca_components: 4
-  umap_n_neighbors: 5
-  umap_min_dist: 0.1
-  umap_metric: "euclidean"
-  min_cluster_size: 3
-  min_samples: 2
-  clustering_method: "hdbscan" # or "hierarchical"
+stages:
+  - "src.pipeline.stages.dataset_scanner_stage.DatasetScannerStage"
+  - "src.pipeline.stages.placeholder_stage.PlaceholderStage"
 
 models:
   algorithms:
